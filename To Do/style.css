@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 247, 246);
+}
+.container{
+    background-color: rgb(108, 125, 125);
+    width: 80%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container .heading{
+    line-height: 5rem;
+}
+
+.input{
+    margin-bottom: 1.5rem;
+}
+
+.input input{
+    width: 70%;
+    height: 30px;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+}
+
+.input .task_add_btn{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: #0BDA51;
+    opacity: 0.9;
+}
+
+.input .task_add_btn:hover{
+    opacity: 1;
+}
+
+.tasks .task{
+    width: 85%;
+    min-height: 30px;
+    max-height: 70px;
+    background-color: #0BDA51;
+    margin: 1.2rem 7% 1.2rem 7%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks .task span{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.tasks .task .task_controller i{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.tasks .task .task_controller i:hover{
+    color: white;
+}
